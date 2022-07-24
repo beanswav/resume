@@ -1,0 +1,143 @@
+{
+  "main": {
+    "name": "Vince Estrada",
+    "occupation": "Full-Stack Software Engineer",
+    "description": "I have a passion for design and I love to build beautiful and responsive user interfaces. I have experience with React, Node/Express, Sequelize, and PostgreSQL. I'm looking to expand my experience in building and scaling web applications and services in all domains. I'm passionate about open-source contributions, working in high-impact environments, and contributing to development teams to help build a great product",
+    "image": "profilepic.jpg",
+    "bio": "I am an gamer at heart, with an entrepreneurial spirit, a knack for visual arts, and a passion for coding. Born in a small town in Central Philippines, I made my move to the United States where I now work as an MRI technologist still searching for their first developer opportunity. I love to create and tend to take on too many hobbies and projects at any one time. Outside of work I am an avid kayak fisherman, competitive gamer and amateur cook. I love to travel but lead a fairly quiet lifestyle. I have this dream that I will be able to take my work with me on a secluded body of water - just me, my laptop, and my dog all on my kayak.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "vinceestrada1215@gmail.com",
+    "phone": "815-780-0880",
+    "address": {
+      "street": "3754 N Magnolia Ave.",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60613"
+    },
+    "website": "https://www.linkedin.com/in/vince-js",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/beans_wav",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/vince-js",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/beans_wav",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/beanswav",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Everyday I become more skilled at implementing these technologies. The grind never stops and while I still have much to learn, I am confident in the foundational knowledge that I currently have.",
+    "education": [
+      {
+        "school": "Fullstack Academy",
+        "degree": "Full-time remote immersive software engineering program",
+        "graduated": "May 2022",
+        "description": "Fullstack laid down the groundwork for me to build web applications from the bottom up. I was given the confidence to learn anything new that will be thrown at me using Google, documentation, and the wisdom of other developers."
+      },
+      {
+        "school": "College of Dupage",
+        "degree": "Applied Sciences with focus in Magnetic Resonance Imaging",
+        "graduated": "August 2020",
+        "description": "I was given the tools to become the hardworking individual I am today. This program shaped me to have the skills and attitude to become an excellent practitioner who provides consistent service and care to a community."
+      }
+    ],
+    "work": [
+      {
+        "company": "Ann & Robert H. Lurie Children's Hospital of Chicago",
+        "title": "Senior MRI Technologist",
+        "years": "December 2020 - Present",
+        "description": "Here I learned how to skillfully handle the constant flow of tasks to be done by myself and coworkers. I was able to hone critical thinking skills assisting with my developing abilities in software engineering. I have successfully been serving as an interim lead technologist adding to my responsibilities on top of my obligation as a staff technologist."
+      },
+      {
+        "company": "Fullstack Academy",
+        "title": "Student experience",
+        "years": "May 2022 - Present",
+        "description": "Curriculum was designed with project-based learning in mind. Labs and workshops were a collaborative effort to simulate the day-to-day life of a software engineer working in a growing development team."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "Node/Express",
+        "level": "50%"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "75%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Full stack web application",
+        "category": "Website I built for our final project at Fullstack academy",
+        "image": "jpfp.jpg",
+        "url": "https://special-potato-ce08d669.pages.github.io/"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Simple Etch-a-Sketch",
+        "category": "A simple exercise in DOM manipulation",
+        "image": "etchasketch.jpeg",
+        "url": "https://beanswav.github.io/Etch-a-Sketch/"
+      },
+      {
+        "title": "Janken Game",
+        "category": "Creating a simple game of Rock, Paper, Scissors",
+        "image": "rockpaperscissors.png",
+        "url": "https://beanswav.github.io/RockPaperScissors/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
