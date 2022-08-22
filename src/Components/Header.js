@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import mainbackground from "../images/main-background.jpg";
 
 export default function Header(props) {
   const [current, setCurrent] = useState(null);
@@ -9,11 +10,27 @@ export default function Header(props) {
     var city = props.data.address.city;
     var occupation = props.data.occupation;
     var description = props.data.description;
-    var networks = props.data.networks;
+    var social = props.data.socials.map((el) => {
+      return (
+        <li key={el.name}>
+          <a href={el.url}>
+            <i className={el.className}></i>
+          </a>
+        </li>
+      );
+    });
   }
 
   return (
-    <header id="home">
+    <header
+      id="home"
+      style={{
+        backgroundImage: `url(${mainbackground})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <nav id="nav-wrap">
         <ul id="nav" className="nav">
           <li>
@@ -55,7 +72,7 @@ export default function Header(props) {
             I'm a {city} based <span>{occupation}</span>, {description}.
           </h3>
           <hr />
-          <ul className="social">{networks}</ul>
+          <ul className="social">{social}</ul>
         </div>
       </div>
 

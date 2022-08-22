@@ -2,9 +2,9 @@
   "main": {
     "name": "Vince Estrada",
     "occupation": "Full-Stack Software Engineer",
-    "description": "I have a passion for design and I love to build beautiful and responsive user interfaces. I have experience with React, Node/Express, Sequelize, and PostgreSQL. I'm looking to expand my experience in building and scaling web applications and services in all domains. I'm passionate about open-source contributions, working in high-impact environments, and contributing to development teams to help build a great product",
+    "description": "I have a passion for design and I love to build beautiful and responsive user interfaces. I have experience with React, Node/Express, Sequelize, and PostgreSQL. I'm looking to expand my experience in building and scaling web applications and services in all domains. I'm passionate about working in high-impact environments, and contributing to development teams to help build a great product",
     "image": "profilepic.jpg",
-    "bio": "I am a gamer at heart, with an entrepreneurial spirit, a knack for visual arts, and a passion for coding. Born in a small town in Central Philippines, I made my move to the United States where I now work as an MRI technologist still searching for their first developer opportunity. I love to create and tend to take on too many hobbies and projects at any one time. Outside of work I am an avid kayak fisherman, competitive gamer and amateur cook. I love to travel but lead a fairly quiet lifestyle. I have this dream that I will be able to take my work with me on a secluded body of water - just me, my laptop, and my dog all on my kayak.",
+    "bio": "I am a gamer at heart, with an entrepreneurial spirit, a knack for visual arts, and a passion for coding. Born in a small town in Central Philippines, I made my move to the United States where I now work as an MRI technologist still searching for their first developer opportunity. I love to create and tend to take on too many hobbies and projects at any one time. Outside of work I am an avid kayak fisherman, competitive gamer and amateur cook. I lead a fairly quiet lifestyle but love to travel. I have this dream that I will be able to take my work with me on a secluded body of water - just me, my laptop, and my dog all on my kayak.",
     "contactmessage": "Reach out to me through any of my links below",
     "email": "vinceestrada1215@gmail.com",
     "phone": "815-780-0880",
@@ -48,8 +48,8 @@
         "description": "Fullstack laid down the groundwork for me to build web applications from the bottom up. I was given the confidence to learn anything new that will be thrown at me using Google, documentation, and the wisdom of other developers."
       },
       {
-        "school": "College of Dupage",
-        "degree": "Applied Sciences with focus in Magnetic Resonance Imaging",
+        "school": "Joliet Junior College / College of Dupage",
+        "degree": "Applied Sciences with focus in Magnetic Resonance Imaging and Radiology Technology",
         "graduated": "August 2020",
         "description": "I was given the tools to become the hardworking individual I am today. This program shaped me to have the skills and attitude to become an excellent practitioner who provides consistent service and care to a community."
       }
@@ -57,15 +57,9 @@
     "work": [
       {
         "company": "Ann & Robert H. Lurie Children's Hospital of Chicago",
-        "title": "Senior MRI Technologist",
+        "title": "Lead MRI Technologist",
         "years": "December 2020 - Present",
         "description": "Here I learned how to skillfully handle the constant flow of tasks to be done by myself and coworkers. I was able to hone critical thinking skills assisting with my developing abilities in software engineering. I have successfully been serving as an interim lead technologist adding to my responsibilities on top of my obligation as a staff technologist."
-      },
-      {
-        "company": "Fullstack Academy",
-        "title": "Student experience",
-        "years": "May 2022 - Present",
-        "description": "Curriculum was designed with project-based learning in mind. Labs and workshops were a collaborative effort to simulate the day-to-day life of a software engineer working in a growing development team."
       }
     ],
     "skills": [
@@ -102,8 +96,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Some quote.",
-        "user": "Coworker"
+        "text": "He's been a great leader advocating and supporting us while we are without a lead tech. He's always willing to lend a helping hand and is great under pressure",
+        "user": "Lurie Children's Coworker"
       },
       {
         "text": "He's just the best... at everything. Such a hard worker - so handsome too!",

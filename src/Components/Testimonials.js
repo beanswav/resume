@@ -1,4 +1,5 @@
 import React from "react";
+import testimonialsimg from "../images/testimonials.jpg";
 
 export default function Testimonials(props) {
   if (props.data) {
@@ -15,7 +16,16 @@ export default function Testimonials(props) {
   }
 
   return (
-    <section id="testimonials">
+    <section
+      id="testimonials"
+      style={{
+        backgroundImage: `url(${testimonialsimg})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div className="text-container">
         <div className="row">
           <div className="two columns header-col">
