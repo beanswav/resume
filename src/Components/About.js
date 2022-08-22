@@ -43,6 +43,17 @@ export default function About(props) {
                 <br />
                 <span>{email}</span>
               </p>
+              <div style={{ width: "58.3333%", paddingTop: 6 }}>
+                <p>
+                  <a
+                    className="button"
+                    href="https://docs.google.com/document/d/1EyxxShm10nknSBzV-craEZyuEtqXjU5Z/edit?usp=sharing&ouid=100150158492349996742&rtpof=true&sd=true"
+                    style={{ marginTop: 6, background: "#444" }}
+                  >
+                    See Resume
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
