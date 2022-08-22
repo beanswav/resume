@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header(props) {
+  const [current, setCurrent] = useState(null);
+
   if (props.data) {
     var name = props.data.name;
-    var city = props.data.city;
+    var city = props.data.address.city;
     var occupation = props.data.occupation;
     var description = props.data.description;
     var networks = props.data.networks;
@@ -13,30 +16,34 @@ export default function Header(props) {
     <header id="home">
       <nav id="nav-wrap">
         <ul id="nav" className="nav">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
+          <li>
+            <Link activeClass="current" smooth={true} to="home">
               Home
-            </a>
+            </Link>
           </li>
+
           <li>
-            <a className="smoothscroll" href="#about">
+            <Link activeClass="current" smooth={true} to="about">
               About
-            </a>
+            </Link>
           </li>
+
           <li>
-            <a className="smoothscroll" href="#resume">
+            <Link activeClass="current" smooth={true} to="resume">
               Resume
-            </a>
+            </Link>
           </li>
+
           <li>
-            <a className="smoothscroll" href="#testimonials">
+            <Link activeClass="current" smooth={true} to="testimonials">
               Testimonials
-            </a>
+            </Link>
           </li>
+
           <li>
-            <a className="smoothscroll" href="#contact">
+            <Link activeClass="current" smooth={true} to="contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -53,9 +60,9 @@ export default function Header(props) {
       </div>
 
       <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
+        <Link smooth={true} to="about">
           <i className="icon-down-circle"></i>
-        </a>
+        </Link>
       </p>
     </header>
   );

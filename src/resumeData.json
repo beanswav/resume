@@ -98,5 +98,17 @@
         "level": "75%"
       }
     ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Some quote.",
+        "user": "Coworker"
+      },
+      {
+        "text": "He's just the best... at everything. Such a hard worker - so handsome too!",
+        "user": "My mother"
+      }
+    ]
   }
 }

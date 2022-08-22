@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
 import "./App.css";
 import data from "./resumeData.json";
 import Header from "./Components/Header";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
+import Testimonials from "./Components/Testimonials";
 
 class App extends Component {
   constructor(props) {
@@ -30,6 +30,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
+        <Testimonials data={this.state.resumeData.testimonials} />
       </div>
     );
   }
