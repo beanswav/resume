@@ -3,8 +3,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import mainbackground from "../images/main-background.jpg";
 
 export default function Header(props) {
-  const [current, setCurrent] = useState(null);
-
   if (props.data) {
     var name = props.data.name;
     var city = props.data.address.city;
