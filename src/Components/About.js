@@ -34,8 +34,6 @@ export default function About(props) {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {street}
-                  <br />
                   {city} {state}, {zip}
                 </span>
                 <br />

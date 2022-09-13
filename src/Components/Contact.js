@@ -128,7 +128,6 @@ const Contact = (props) => {
             <p className="address">
               {name}
               <br />
-              {street} <br />
               {city}, {state} {zip}
               <br />
               <span>{phone}</span>
