@@ -1,7 +1,7 @@
 {
   "name": "resumerepo",
   "version": "0.1.0",
-  "homepage": "https://beansestrada.me",
+  "homepage": "http://beansestrada.me",
   "private": true,
   "dependencies": {
     "axios": "^0.27.2",
